@@ -1,13 +1,14 @@
-package main.App.UI;
+package it.animeDatabase.UI;
 
 import java.io.IOException;
 import java.util.Optional;
 import java.util.Scanner;
 
-import main.App.Anime;
-import main.App.AnimeManager;
-import main.App.AnimeState;
-import main.App.Exeption.AnimeException;
+import it.animeDatabase.Exeption.AnimeException;
+import it.animeDatabase.app.Anime;
+import it.animeDatabase.app.AnimeManager;
+import it.animeDatabase.app.AnimeState;
+
 
 public class Home {
     private AnimeManager aManager;

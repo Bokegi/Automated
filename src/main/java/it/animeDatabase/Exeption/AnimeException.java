@@ -1,4 +1,4 @@
-package main.App.Exeption;
+package it.animeDatabase.Exeption;
 
 public class AnimeException extends Exception{
     public AnimeException(String message) {

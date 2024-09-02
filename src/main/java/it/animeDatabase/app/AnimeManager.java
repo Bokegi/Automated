@@ -1,4 +1,4 @@
-package main.App;
+package it.animeDatabase.app;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -10,7 +10,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Optional;
 
-import main.App.Exeption.AnimeException;
+import it.animeDatabase.Exeption.AnimeException;
 
 public class AnimeManager implements Serializable{
 

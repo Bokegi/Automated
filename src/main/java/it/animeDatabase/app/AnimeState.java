@@ -1,4 +1,4 @@
-package main.App;
+package it.animeDatabase.app;
 
 public enum AnimeState {
   COMPLETED,
