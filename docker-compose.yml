@@ -1,0 +1,10 @@
+version: "1.0"
+services:
+  project:
+    container_name: animedatabase
+    build:
+      context: .
+      dockerfile: ./dockerfile
+    restart: unless-stopped
+
+    
