@@ -1,0 +1,10 @@
+#extentions
+*.class
+*.ser
+*.jar
+
+#directory
+bin/
+.vscode/
+javadoc/
+target/
