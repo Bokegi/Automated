@@ -1,0 +1,40 @@
+Scrivere un programma Java per la gestione di una banca dati di anime giapponesi. Il sistema deve gestire tre tipologie di anime: anime completato, anime in corso (che corrisponde all’anime che si sta guardando), anime che vorresti guardare. In entrambi i casi, gli anime sono caratterizzati da un titolo, da un autore, da un anno di pubblicazione, da uno studio di produzione, da un numero di episodi totali. Nel caso di anime completato e anime in corso, dovrà essere memorizzato anche il numero di episodi guardati. Da notare che, l’anime passa da in corso a completato quando il numero di episodi guardati è uguale al numero di episodi totali. 
+
+L'utente può accedere alle seguenti funzionalità:
+
+F1: Inserimento anime. Il sistema chiede all'utente tutti i campi necessari e lo stato dell’anime
+F2: Modifica informazioni anime. Il sistema chiede il nome dell’anime. Il sistema mostrerà tutti i dettagli dell’anime e chiederà all’utente se vuole modificare le sue informazioni, ossia stato dell’anime e numero di episodi guardati.
+F3: Stampa statistiche. Il sistema stampa le seguenti statistiche:
+Il numero totale di anime completati;
+Il numero totale di anime in corso;
+Il numero totale di anime da guardare.
+Esempio di stampa:
+
+- Anime completati: 10
+- Anime in corso: 10
+- Anime da guardare: 30
+Ogni volta che viene effettuata la prima operazione e la seconda operazione, il sistema deve salvare lo stato del programma. Quando il programma si avvia, dev'essere recuperato lo stato, caricando la sessione precedente.
+
+È sufficiente implementare un'interfaccia da terminale, non è necessario implementare un'interfaccia grafica.
+
+Vincoli:
+
+Si devono usare almeno una volta le API stream di Collection; 
+Non si devono mai usare cicli for o while per scorrere le collection (solo cicli for-each);
+Si deve pubblicizzare almeno una volta un'eccezione nel programma;
+Si deve gestire almeno una volta un'eccezione nel programma;
+Si deve usare la serializzazione per salvare e caricare i dati; si deve usare il try-with-resource per i file;
+Si devono definire alcuni casi di test, almeno per una delle classi create;
+Documentare almeno una delle classi principali.
+Valutazione
+
+Strutturazione del programma (es: divisione di logica applicativa e di presentazione): 8 punti
+Collection: 3 punti
+Eccezioni: 3 punti
+Persistenza: 2 punti
+Testing: 4 punti
+Documentazione: 2 punti
+Implementazione completa F1: 2 punti
+Implementazione completa F2: 4 punti
+Implementazione completa F3: 3 punti
+Bonus: leggibilità: 2 punti
