@@ -10,6 +10,5 @@ RUN mvn -f /usr/src/app/pom.xml clean package
 # PACKAGE STAGE
 #
 FROM openjdk:11-jre-slim 
-COPY target/progetto-1.0-SNAPSHOT.jar /usr/app/progetto-1.0-SNAPSHOT.jar  
-EXPOSE 8080  
+COPY target/progetto-1.0-SNAPSHOT.jar /usr/app/progetto-1.0-SNAPSHOT.jar   
 CMD ["java","-jar","/usr/app/progetto-1.0-SNAPSHOT.jar"]  

@@ -11,6 +11,7 @@ import it.animeDatabase.app.AnimeState;
 
 
 public class Home {
+    
     private AnimeManager aManager;
     private Scanner scanner = new Scanner(System.in);
     

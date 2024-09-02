@@ -5,6 +5,6 @@ services:
     build:
       context: .
       dockerfile: ./dockerfile
-    restart: unless-stopped
+
 
     
