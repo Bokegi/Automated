@@ -16,7 +16,7 @@ public class AnimeManager implements Serializable{
 
     private ArrayList<Anime> animeList;
     
-    private final static String FILE_NAME = "Automated/animeData.ser";
+    private final static String FILE_NAME = "saveData/animeData.ser";
 
     public AnimeManager() {
     }
