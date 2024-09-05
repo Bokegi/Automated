@@ -63,6 +63,7 @@ public class Home {
     }
 
     public void insertAnime() {
+        scanner.nextLine(); // Consuma il carattere di nuova linea
         System.out.println("Insert title:");
         String title = scanner.nextLine();
         System.out.println("Insert author:");
