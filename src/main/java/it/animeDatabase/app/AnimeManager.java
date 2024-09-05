@@ -8,7 +8,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Optional;
+
 
 import it.animeDatabase.Exeption.AnimeException;
 
@@ -16,7 +16,7 @@ public class AnimeManager implements Serializable{
 
     private ArrayList<Anime> animeList;
     
-    private final static String FILE_NAME = "animeData.ser";
+    private final static String FILE_NAME = "Automated/animeData.ser";
 
     public AnimeManager() {
     }
